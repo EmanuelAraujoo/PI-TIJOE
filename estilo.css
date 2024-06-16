@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    width: 160px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.btnvestibular {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff0000;
+}
+.btnsaiba{
+margin-right: 20%;
+padding: 10px 20px;
+border-radius: 5px;
+color: #fff;
+background-color: #160101;
+float: inline-start;
+margin-left: 10%;
+}
+.btnsaiba a{
+    text-decoration: none;
+    font-size: 20px;
+    width: 20px;
+}
+.vestibular {
+    background-color: #800000;
+}
+a:hover{
+    color: rgb(250, 0, 0);
+}
+a:visited{
+    color: #e6c409;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f9f9f9;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #333;
+}
+.hero h1{
+    margin-right: 55%;
+    font-size: 60px;
+    margin-bottom: 6%;
+}
+.hero p{
+    margin-inline-end: 20%;
+    font-size: 20px;
+    margin-bottom: 6%;
+}
+.hero .highlight-red {
+    color: red;
+}
+
+.hero .highlight-black {
+    color: black;
+}
+
+.hero p {
+    color: #666;
+}
+
+.btnsaiba {
+    background-color: #333;
+    margin-right: 60%;
+    align-items: 20%;
+    
+}
+
+.content-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card-body {
+    background: #f0f0f0;
+    padding: 100px;
+    border-radius: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 6%;
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+
+.card-text {
+    color: #666;
+}
+:root{
+    --footer-bar: #8B0000;
+}
+.footer-bar {
+    background-color: #8B0000; 
+    height: 50px; 
+    border-top: 5px solid #8B0000; 
+    width: 100%; 
+    position: fixed; 
+    bottom: 0;
+    left: 0; 
+}
+.nav-link{
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    padding: 5px 6px;
+    border-radius: 15px;
+    border-color: #f70101;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+.nav-link a{
+    color: #f70101;
+}
+
+/* Página Sobre.HTML*/
+
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+.login-btn {
+    background-color: #d11a1a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.content {
+    font-size: 14px;
+    color: #666;
+}
+
+.red-dot {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.gray-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.gray-box {
+    background-color: #ececec;
+    padding: 10px;
+    margin-top: 10px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box {
+    width: 30%;
+    height: 100px;
+    background-color: #d3d3d3;
+}
+.red-box {
+    background-color: #d11a1a;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Pagina sobre o Curso */
+
+
+
+.container {
+    padding: 20px;
+}
+.title1{
+    color: #d11a1a;
+    margin: 40px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.artigo2 {
+    background-color: #c9c6c6;
+    padding: 120px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+/* Circulos e breadcrumbs */
+
+.circulos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.circulos button{
+    display: inline-flex;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0em 6em;
+    border: none;
+}
+
+.red-button {
+    background-color: rgb(178, 0, 0);
+    transition-duration: 0.7s;
+  }
+
+
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    background-color: #c9c6c6;
+}
+
+.breadcrumb li {
+    margin: 0 5px;
+    
+}
+
+.breadcrumb li p {
+    text-decoration: none;
+    
+    
+}
+.breadcrumb li p.active {
+    color: red;
+    transition-duration: 0.4s;
+    
+}
+
+.breadcrumb p::after{
+    content: "  /  ";
+}
+
+
+.p-content{
+    margin-left: 45px;
+}
+
+.title3{
+    color: #d11a1a;
+    margin: 40px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.title4{
+    color: #d11a1a;
+    margin: 40px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.content {
+    font-size: 14px;
+    color: #666;
+}
+
+.gray-box {
+    background-color: #ececec;
+    padding: 70px;
+    margin-top: 50px;
+    margin: 40px;
+}
+.BolaCinza{
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.gray-box2{
+    height: 50px;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: 280px;
+    margin-top: 25px;
+    
+
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+
+.box {
+    width: 270px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #d3d3d3;
+    padding-bottom: 170px;
+}
+
+.red-box {
+    background-color: #d11a1a;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* .balls{
+    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-left: 25%;
+    
+}
+.red-dot {
+    width: 60px;
+    height: 60px;
+    background-color: #aa0f0f;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+.gray-dot {
+    width: 60px;
+    height: 60px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 120px;
+}*/

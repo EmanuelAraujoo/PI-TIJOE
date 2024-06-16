@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imgs/Favcon.DSM.png" type="image/x-icon">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Fatec - DSM</title>
+</head>
+<body>
+    <header class="header bg-white shadow-sm sticky-top">
+        <nav class="navbar-expand-lg navbar-light container">
+            <div>
+                <img class="logo" src="imgs/DSM_Preto.png" alt="DSM">
+            </div>
+            <ul class="nav-links">
+                <button class="nav-link"><li><a href="index.html">Página Inicial</a></li></button>
+                <button class="nav-link"><li><a href="sobre.html">Sobre o Curso</a></li></button>
+                <button class="nav-link"><li><a href="#">Área Interativa</a></li></button>
+                <button class="nav-link"><li><a href="#">Contato</a></li></button>
+            </ul>
+            <a href="https://www.vestibularfatec.com.br/home/" class="btnvestibular btn btn-danger ml-lg-3">Vestibular</a>
+        </nav>
+    </header>
+    <main class="container py-4">
+        <div class="dot gray-box">HEADER</div>
+        
+        <div class="title1">Título 1</div>
+        <div class="p-content">Lorem ipsum dolor sit amet consectetur. Nunc eget fermentum nulla eleifend volutpat nulla nec sit.</div>
+        
+        <div>
+            <ul class="circulos">
+                <li class="bolinha"><button onclick="changeContent(1, this)"></button></li>
+                <li class="bolinha"><button onclick="changeContent(2, this)"></button></li>
+                <li class="bolinha"><button onclick="changeContent(3, this)"></button></li>
+                <li class="bolinha"><button onclick="changeContent(4, this)"></button></li>
+            </ul>
+        </div>
+            <div class="artigo2">
+                    <ul class="breadcrumb" id="breadcrumb">
+                        <li><p onclick="changeContent(1, this)">Objetivos</p></li>
+                        <li><p onclick="changeContent(2, this)">Corpo Docente</p></li>
+                        <li><p onclick="changeContent(3, this)">Grade Curricular</p></li>
+                        <li><p onclick="changeContent(4, this)">Microcertificações</p></li>
+                    </ul>
+            
+                <div id="content">Texto 1</div>
+            
+            </div>
+            
+        </div>
+
+
+        <div class="title3">Por que a Fatec?</div>
+        <div class="p-content">Lorem ipsum dolor sit amet consectetur. Nunc eget fermentum nulla eleifend volutpat nulla nec sit.</div>
+        <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="title4">O que nossos Fatecanos dizem?</div>
+        <div class="BolaCinza"></div>
+        <div class="gray-box2 gray-box">
+            <p>BOX</p>
+        </div>
+    </main>
+    <div class="red-box">
+        
+    </div>
+    <script src="scriptfuncoes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+</body>
+</html>
