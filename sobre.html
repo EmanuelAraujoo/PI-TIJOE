@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <link rel="shortcut icon" href="imgs/Favcon.DSM.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@latest/dist/lucide.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Fatec - DSM</title>
 </head>
@@ -16,8 +17,8 @@
             </div>
             <ul class="nav-links">
                 <button class="nav-link"><li><a href="index.html">Página Inicial</a></li></button>
-                <button class="nav-link"><li><a href="sobre.html">Sobre o Curso</a></li></button>
-                <button class="nav-link"><li><a href="#">Área Interativa</a></li></button>
+                <button class="nav-link"><li><a href="#">Sobre o Curso</a></li></button>
+                <button class="nav-link"><li><a href="areaInterativa.html">Área Interativa</a></li></button>
                 <button class="nav-link"><li><a href="#">Contato</a></li></button>
             </ul>
             <a href="https://www.vestibularfatec.com.br/home/" class="btnvestibular btn btn-danger ml-lg-3">Vestibular</a>
@@ -31,19 +32,27 @@
         
         <div>
             <ul class="circulos">
-                <li class="bolinha"><button onclick="changeContent(1, this)"></button></li>
-                <li class="bolinha"><button onclick="changeContent(2, this)"></button></li>
-                <li class="bolinha"><button onclick="changeContent(3, this)"></button></li>
-                <li class="bolinha"><button onclick="changeContent(4, this)"></button></li>
+                <li class="bolinha"><button onclick="changeContent(1, this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-search"><path d="M21 12V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.5"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><circle cx="18" cy="18" r="3"/><path d="m22 22-1.5-1.5"/></svg>
+                </button></li>
+                <li class="bolinha"><button onclick="changeContent(2, this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-contact-round"><path d="M16 18a4 4 0 0 0-8 0"/><circle cx="12" cy="11" r="3"/><rect width="18" height="18" x="3" y="4" rx="2"/><line x1="8" x2="8" y1="2" y2="4"/><line x1="16" x2="16" y1="2" y2="4"/></svg>
+                </button></li>
+                <li class="bolinha"><button onclick="changeContent(3, this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-notebook-tabs"><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><rect width="16" height="20" x="4" y="2" rx="2"/><path d="M15 2v20"/><path d="M15 7h5"/><path d="M15 12h5"/><path d="M15 17h5"/></svg>
+                </button></li>
+                <li class="bolinha"><button onclick="changeContent(4, this)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+                </button></li>
             </ul>
         </div>
             <div class="artigo2">
-                    <ul class="breadcrumb" id="breadcrumb">
-                        <li><p onclick="changeContent(1, this)">Objetivos</p></li>
-                        <li><p onclick="changeContent(2, this)">Corpo Docente</p></li>
-                        <li><p onclick="changeContent(3, this)">Grade Curricular</p></li>
-                        <li><p onclick="changeContent(4, this)">Microcertificações</p></li>
-                    </ul>
+                <!--<ul class="breadcrumb" id="breadcrumb">
+                    <li><p onclick="changeContent(1, this)">Objetivos</p></li>
+                    <li><p onclick="changeContent(2, this)">Corpo Docente</p></li>
+                    <li><p onclick="changeContent(3, this)">Grade Curricular</p></li>
+                    <li><p onclick="changeContent(4, this)">Microcertificações</p></li>
+                </ul>-->
             
                 <div id="content">Texto 1</div>
             
@@ -51,6 +60,9 @@
             
         </div>
 
+        <!-- Testes -->
+
+        <!-- Fim Testes -->
 
         <div class="title3">Por que a Fatec?</div>
         <div class="p-content">Lorem ipsum dolor sit amet consectetur. Nunc eget fermentum nulla eleifend volutpat nulla nec sit.</div>
@@ -69,8 +81,9 @@
     <div class="red-box">
         
     </div>
-    <script src="scriptfuncoes.js"></script>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/lucide.js"></script>
 </body>
 </html>

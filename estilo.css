@@ -1,19 +1,19 @@
+/*HOME DO SITE*/
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-header {
-    background: #fff;
-    padding: 10px 20px;
+.header {
+    background: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 .logo{
-    width: 160px;
+    width: 180px;
 }
 
 nav{
@@ -42,13 +42,12 @@ nav{
     background-color: #ff0000;
 }
 .btnsaiba{
-margin-right: 20%;
+margin-right: 10%;
 padding: 10px 20px;
 border-radius: 5px;
 color: #fff;
 background-color: #160101;
 float: inline-start;
-margin-left: 10%;
 }
 .btnsaiba a{
     text-decoration: none;
@@ -62,7 +61,7 @@ a:hover{
     color: rgb(250, 0, 0);
 }
 a:visited{
-    color: #e6c409;
+    color: #ffffff;
 }
 
 
@@ -84,7 +83,7 @@ main {
     margin-bottom: 6%;
 }
 .hero p{
-    margin-inline-end: 20%;
+    font-style: oblique;
     font-size: 20px;
     margin-bottom: 6%;
 }
@@ -111,6 +110,7 @@ main {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+
 }
 
 .card-body {
@@ -121,6 +121,7 @@ main {
     flex: 1;
     min-width: 200px;
     margin-bottom: 6%;
+    box-shadow: 0px 5px 5px #333;
 }
 
 .card-title {
@@ -155,9 +156,10 @@ main {
 .nav-link a{
     color: #f70101;
 }
+/*------------------------------------------------------------------------------------------------------------------------------*/
 
-/* Página Sobre.HTML*/
 
+/* PÁGINA Sobre.HTML*/
 
 nav {
     background-color: #fff;
@@ -187,28 +189,11 @@ nav a {
     margin-bottom: 10px;
 }
 
-
 .content {
     font-size: 14px;
     color: #666;
 }
 
-.red-dot {
-    width: 20px;
-    height: 20px;
-    background-color: red;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 10px;
-}
-.gray-dot {
-    width: 20px;
-    height: 20px;
-    background-color: #d3d3d3;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 10px;
-}
 .gray-box {
     background-color: #ececec;
     padding: 10px;
@@ -239,6 +224,7 @@ nav a {
 .container {
     padding: 20px;
 }
+
 .title1{
     color: #d11a1a;
     margin: 40px;
@@ -247,14 +233,45 @@ nav a {
     margin-top: 15px;
     font-weight: bolder;
 }
+
 .artigo2 {
-    background-color: #c9c6c6;
-    padding: 120px;
+    background-color: #ECECEC;
+    padding: 0px 20px 20px;
     margin: 30px;
     border-radius: 10px;
+    padding-top: 20px;
+    box-shadow: 0px 5px 5px #333;
 }
 
 /* Circulos e breadcrumbs */
+
+/*
+.breadcrumb {
+    list-style: none;
+    display: flex;
+    background-color: #ECECEC;
+}
+
+.breadcrumb li {
+    margin: 0 5px;
+    
+}
+
+.breadcrumb li p {
+    text-decoration: none;  
+}
+
+
+.breadcrumb li p.active {
+    color: red;
+    transition-duration: 0.4s;
+    
+}
+
+.breadcrumb p::after{
+    content: "  /  ";
+}
+*/
 
 .circulos{
     display: flex;
@@ -269,40 +286,42 @@ nav a {
     height: 80px;
     margin: 0em 6em;
     border: none;
+    box-shadow: 0px 5px 5px #333;
+}
+
+.bolinha svg{
+    padding: 21px;
 }
 
 .red-button {
-    background-color: rgb(178, 0, 0);
+    background-color: #df2828;
     transition-duration: 0.7s;
-  }
+}
 
+/* Objetivos */
 
-.breadcrumb {
-    list-style: none;
+#contentObj {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    width: 100%;
+}
+
+.objetivo {
     display: flex;
-    background-color: #c9c6c6;
+    flex-direction: row;
+    align-items: center;
 }
 
-.breadcrumb li {
-    margin: 0 5px;
-    
+.objetivo svg {
+    margin-right: 20px;
 }
 
-.breadcrumb li p {
-    text-decoration: none;
-    
-    
+.objetivo p {
+    font-size: 16px;
+    color: #333;
 }
-.breadcrumb li p.active {
-    color: red;
-    transition-duration: 0.4s;
-    
-}
-
-.breadcrumb p::after{
-    content: "  /  ";
-}
-
 
 .p-content{
     margin-left: 45px;
@@ -327,6 +346,8 @@ nav a {
 .content {
     font-size: 14px;
     color: #666;
+    display: flex;
+    align-content: center;
 }
 
 .gray-box {
@@ -334,6 +355,7 @@ nav a {
     padding: 70px;
     margin-top: 50px;
     margin: 40px;
+    box-shadow: 0px 5px 5px #333;
 }
 .BolaCinza{
     width: 100px;
@@ -343,6 +365,7 @@ nav a {
     display: inline-block;
     margin-left: 600px;
     margin-top: 40px;
+    box-shadow: 0px 5px 5px #333;
 }
 .gray-box2{
     height: 50px;
@@ -350,7 +373,7 @@ nav a {
     border-radius: 20px;
     margin-left: 280px;
     margin-top: 25px;
-    
+    box-shadow: 0px 5px 5px #333;
 
 }
 .boxes {
@@ -367,6 +390,7 @@ nav a {
     border-radius: 30px;
     background-color: #d3d3d3;
     padding-bottom: 170px;
+    box-shadow: 0px 5px 5px #333;
 }
 
 .red-box {
@@ -377,26 +401,167 @@ nav a {
     text-align: center;
 }
 
-/* .balls{
-    margin-bottom: 30px;
-    margin-top: 60px;
-    margin-left: 25%;
-    
+/* Testes */
+
+
+
+
+
+/* Carrossel de Imagens */
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
-.red-dot {
-    width: 60px;
-    height: 60px;
-    background-color: #aa0f0f;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 100px;
-    
+
+.carrossel {
+    position: relative;
+    max-width: 1000px;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
-.gray-dot {
-    width: 60px;
-    height: 60px;
-    background-color: #d3d3d3;
+
+.carrossel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.carrossel-item img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    display: inline-block;
-    margin-right: 120px;
-}*/
+    margin-bottom: 40px;
+}
+
+.carrossel-caption {
+    text-align: center;
+}
+
+.carrossel-caption h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.carrossel-caption p {
+    font-size: 14px;
+    color: #555;
+}
+
+.carrossel-control {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+    transform: translateY(-50%);
+}
+
+.carrossel-control.prev {
+    left: 10px;
+}
+
+.carrossel-control.next {
+    right: 10px;
+}
+
+
+/*ÁREA INTERATIVA - areaInterativa.html*/
+.filter{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.filter button{
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 5px #333;
+}
+
+.filter button:hover{
+    background-color: #e94949;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item{
+    background-color: #f1f1f1;
+    height: 300px;
+    width: 270px;
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 0px 5px 5px #333;
+}
+.PAT{
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.breadcrumbs {
+    margin: 20px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #ff0d0d;
+    margin-right: 5px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    margin-right: 5px;
+}
+
+/*PÁGINA CONTATO.HTML*/
+
+.btnContato{
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btnContato2{
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btnContato3{
+    border-radius: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
