@@ -196,7 +196,7 @@ main {
 
 .btnsaiba {
     float: inline-start;
-    background-color: #e74c3c;
+    background-color: #B20000;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -206,7 +206,7 @@ main {
 }
 
 .btnsaiba:hover {
-    background-color: #c0392b;
+    background-color: #7E0000;
 }
 
 /* Fim teste */
@@ -253,7 +253,7 @@ main {
     box-shadow: 0px 5px 5px #333;
 }
 
-/* Circulos e breadcrumbs */
+/* Circulos */
 
 
 .circulos{
@@ -424,7 +424,6 @@ main {
 
 /* Carrossel de Imagens */
 
-
 #content {
     display: flex;
     justify-content: center;
@@ -432,6 +431,7 @@ main {
     width: 100%;
     height: 100%;
 }
+
 
 .carrossel {
     position: relative;
@@ -468,10 +468,6 @@ main {
     box-shadow: 0px 5px 5px #333;
 }
 
-.carrossel-desc {
-    text-align: center;
-}
-
 .carrossel-desc h3 {
     margin: 10px 0;
     font-size: 24px;
@@ -502,12 +498,10 @@ main {
 
 .carrossel-control.prev {
     left: 10px;
-    
 }
 
 .carrossel-control.next {
     right: 10px;
-    
 }
 
 
@@ -703,7 +697,7 @@ main {
     border-radius: 50%;
     user-select: none;
     transform: translateY(-50%);
-    
+
 }
 
 .carrossel-controlOp.prev {

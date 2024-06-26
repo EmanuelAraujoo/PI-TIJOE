@@ -48,7 +48,7 @@
                     <div class="carrossel">
                         <div class="carrossel-inner">
                             <div class="carrossel-item active">
-                                <img src="imgs/profs/Mauricio.png" alt="Professor Mauricio">
+                                <img src="imgs/profs/Foto-Maurício.png" alt="Professor Mauricio">
                                 <div class="carrossel-desc">
                                     <h3>Maurício Duarte</h3>
                                     <p><span>&emsp;</span>Graduado em Ciência da Computação pela UNESP - Bauru. Mestre em Ciência da Computação pela USP - São Carlos. 
@@ -64,7 +64,7 @@
                                 </div>
                             </div>
                             <div class="carrossel-item">
-                                <img src="imgs/profs/ximira.png" alt="Professor João">
+                                <img src="imgs/profs/Foto-João.png" alt="Professor João">
                                 <div class="carrossel-desc">
                                     <h3>João Cardia</h3>
                                     <p><br><span>&emsp;</span>Possui graduação em Bacharelado Em Ciência da Computação pelo Centro Universitário Euripedes de Marília - UNIVEM (2010), Mestrado em Ciência da Computação pela Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP (2014) e é doutor em Ciência da Computação pela Universidade Federal de São Carlos - UFSCAR, tendo um período sanduíche na Università degli Studi di Firenze. Leciona no Centro Paula Souza desde 2015 e atuou como desenvolvedor de software de 2005 até 2012 e, posteriormente, de 2014 até 2015. Além da docência atualmente é consultor na implementação de projetos de P&D dentro de empresas e na busca de fomento a fundo perdido.<br><span>&emsp;</span>
@@ -88,7 +88,7 @@
                                 </div>
                             </div>
                             <div class="carrossel-item">
-                                <img src="imgs/profs/marcel.png" alt="Professor Marcel">
+                                <img src="imgs/profs/Foto-Marcel.png" alt="Professor Marcel">
                                 <div class="carrossel-desc">
                                     <h3>Marcel Santos</h3>
                                     <p><span>&emsp;</span>Marcel Santos Silva é Professor, Consultor e Produtor de Conteúdo.
@@ -100,31 +100,33 @@
                                         Fundador da Magres Tecnologia, Treinamento e Vendas.
                                         Presidente da Associação Brasileira dos Conteudistas, Autores, Validadores, Revisores, Designers Instrucionais e Produtores de Material Didático - ABCONT.
                                         Membro do CODEM - Conselho de Desenvolvimento Estratégico de Marília na Câmara Técnica de Tecnologia e Inovação.
-                                        Membro titular, representante da Fatec Marília, no COMCITI - Conselho Municipal de Ciência, Tecnologia e Inovação de Marília.</p>
+                                        Membro titular, representante da Fatec Marília, no COMCITI - Conselho Municipal de Ciência, Tecnologia e Inovação de Marília.
+                                    </p>
                                 </div>
                             </div>
                             <div class="carrossel-item">
-                                <img src="imgs/profs/corolla.png" alt="Professora Larissa">
+                                <img src="imgs/profs/Foto-Larissa.png" alt="Professora Larissa">
                                 <div class="carrossel-desc">
                                     <h3>Larissa</h3>
                                     <p><span>&emsp;</span>Doutora em Ciência da Informação pela Unesp - Marília, Mestre e Bacharel em Ciência da Computação pelo Centro Universitário Eurípides de Marília (UNIVEM); Professora Doutora nas Faculdades de Tecnologia "Júlio Julinho Marcondes de Moura" - FATEC Garça, e na Faculdade "Rafael Camarinha" Fatec Marília nos cursos de Análise e Desenvolvimento de Sistemas, AMS - ADS (Articulação da Formação Profissional Média e Superior) e Desenvolvimento Multplataforma (DSM). Integrante do Núcleo de Pesquisa de Iniciação Científica e Tecnológica da FATEC (Garça) desde 2012.<br><span>&emsp;</span>
-                                        Linha de Pesquisa e áreas de atuação: Informação e Tecnologia com experiência em Ciência da Computação e Ciência da Informação. Atualmente realizo pesquisas com foco em: Banco de Dados,Big Data, Ciência de Dados, Data Science, Metodologias Ágeis, Interação Humano Computador,Design Digital, Jogos computacionais e Realidade Virtual. Atuo na linha de pesquisa da Ciência da Informação em Web Semântica, Linked Data, Dados Abertos e Acervos Digitais e sou membro do NEWSDA - Núcleo de Estudos em Web Semântica e Dados Abertos.</p>
+                                    Linha de Pesquisa e áreas de atuação: Informação e Tecnologia com experiência em Ciência da Computação e Ciência da Informação. Atualmente realizo pesquisas com foco em: Banco de Dados,Big Data, Ciência de Dados, Data Science, Metodologias Ágeis, Interação Humano Computador,Design Digital, Jogos computacionais e Realidade Virtual. Atuo na linha de pesquisa da Ciência da Informação em Web Semântica, Linked Data, Dados Abertos e Acervos Digitais e sou membro do NEWSDA - Núcleo de Estudos em Web Semântica e Dados Abertos.
+                                    </p>
                                 </div>
                             </div>
                             <div class="carrossel-item">
-                                <img src="imgs/profs/Querino.png" alt="Professor Querino">
+                                <img src="imgs/profs/Foto-Querino.png" alt="Professor Querino">
                                 <div class="carrossel-desc">
                                     <h3>Carlos Querino</h3>
                                     <p>Carlos Querino possui Graduação e Mestrado em Ciência da Computação, com 24 anos de experiência como docente, sendo 18 anos no ensino superior.
-                                    Conta também com dois livros publicados, sendo eles: <br>Criando Aplicativos para iPhone e iPad; Desenvolvendo seu primeiro aplicativo Android (1ª e 2ª edição). Ambos pela editora Novatec.</p>
+                                    Conta também com dois livros publicados, sendo eles: Criando Aplicativos para iPhone e iPad; Desenvolvendo seu primeiro aplicativo Android (1ª e 2ª edição). Ambos pela editora Novatec.</p>
                                 </div>
                             </div>
                         </div>
                         <a class="carrossel-control prev" onclick="prevSlide()">&#10094;</a>
                         <a class="carrossel-control next" onclick="nextSlide()">&#10095;</a>
                     </div>
-                `;
-                initializeCarrossel();
+                    `;
+                    initializeCarrossel();
                 break;
             case 3:
                 content.innerHTML = `<div class="containerGrade">
@@ -222,11 +224,7 @@
             default:
                 content.innerHTML = "Invalid Button";
         }
-    
-    // Inicializa os ícones
-    lucide.createIcons();
-    
-    // Função para inicializar o Carrossel dos Docentes
+        // Função para inicializar o Carrossel dos Docentes
     function initializeCarrossel() {
         let currentIndex = 0;
     
@@ -253,7 +251,6 @@
     }
     }
     
-
     // Função da Grade Curricular
     document.querySelectorAll('.materias').forEach(card => {
         card.addEventListener('mouseenter', () => {
@@ -269,31 +266,33 @@
     // Função Carrossel de Opiniões
 
     function initializeCarrosselOp() {
-        let currentIndex = 0;
+        let currentIndexOp = 0;
     
-        function showSlide(index) {
-            const slides = document.querySelectorAll('.carrossel-itemOp');
-            if (index >= slides.length) {
-                currentIndex = 0;
-            } else if (index < 0) {
-                currentIndex = slides.length - 1;
+        function showSlideOp(indexOp) {
+            const slidesOp = document.querySelectorAll('.carrossel-itemOp');
+            if (indexOp >= slidesOp.length) {
+                currentIndexOp = 0;
+            } else if (indexOp < 0) {
+                currentIndexOp = slidesOp.length - 1;
             } else {
-                currentIndex = index;
+                currentIndexOp = indexOp;
             }
-            const offset = -currentIndex * 100;
+            const offset = -currentIndexOp * 100;
             document.querySelector('.carrossel-innerOp').style.transform = `translateX(${offset}%)`;
         }
     
-        window.nextSlide = function() {
-            showSlide(currentIndex + 1);
+        window.nextSlideOp = function() {
+            showSlideOp(currentIndexOp + 1);
         }
     
-        window.prevSlide = function() {
-            showSlide(currentIndex - 1);
+        window.prevSlideOp = function() {
+            showSlideOp(currentIndexOp - 1);
         }
-
-    showSlide(currentIndex);
- }
-
- document.addEventListener('DOMContentLoaded', initializeCarrosselOp);
-      
+    
+        showSlideOp(currentIndexOp);
+    }
+    
+    document.addEventListener('DOMContentLoaded', initializeCarrosselOp);
+    
+    // Inicializa os ícones
+    lucide.createIcons();
